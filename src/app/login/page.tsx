@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { signIn } from "next-auth/react";
 import { useRouter } from "next/navigation";
 import toast from "react-hot-toast";
@@ -10,6 +10,18 @@ export default function LoginPage() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const router = useRouter();
+
+  useEffect(() => {
+      toast("You can use admin in username and password for testing!", {
+        duration: 3000,
+        style: {
+          background: "lightgreen",
+          //color: "white", // white text
+          //fontFamily: "Arial, sans-serif",
+          fontSize: "21px",
+        },
+      });
+  }, []);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -47,6 +59,7 @@ export default function LoginPage() {
 
   return (
     <div className="login-div wrapper w-full pb-16">
+      
       <Banner />
       <form
         onSubmit={handleSubmit}
