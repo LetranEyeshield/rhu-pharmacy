@@ -9,13 +9,12 @@ A web-based application designed to manage pharmacy patient records, maintenance
 🔍 Search and Filter Patients
 ✏️ Edit Patient Information via Modal
 ⚡ Real-time UI updates
-📡 GraphQL API integration
+📡 REST API integration
 
 🛠️ Tech Stack
 Frontend: Next.js (App Router), TypeScript
-Styling: Tailwind CSS, Tanstack
-Backend: GraphQL API
-Validation: ZOD
+Styling: Tailwind CSS
+Backend: REST API
 Security: DomPurify
 HTTP Client: Axios
 Database: MongoDB Atlas
