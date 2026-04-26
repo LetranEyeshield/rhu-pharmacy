@@ -13,8 +13,10 @@ A web-based application designed to manage pharmacy patient records, maintenance
 
 🛠️ Tech Stack
 Frontend: Next.js (App Router), TypeScript
-Styling: Tailwind CSS
-Backend: Next.js API Routes (RESTful APIs)
+Styling: Tailwind CSS, Tanstack
+Backend: GraphQL API
+Validation: ZOD
+Security: DomPurify
 HTTP Client: Axios
 Database: MongoDB Atlas
 ODM: Mongoose
