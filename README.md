@@ -9,7 +9,7 @@ A web-based application designed to manage pharmacy patient records, maintenance
 🔍 Search and Filter Patients
 ✏️ Edit Patient Information via Modal
 ⚡ Real-time UI updates
-📡 RESTful API integration
+📡 GraphQL API integration
 
 🛠️ Tech Stack
 Frontend: Next.js (App Router), TypeScript
